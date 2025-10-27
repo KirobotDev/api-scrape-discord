@@ -23,7 +23,7 @@ A professional, modular Discord bot for fetching usernames from user IDs using t
 1. Clone the repository:
    ```bash
    git clone https://github.com/kirobotdev/api-scrape-discord.git
-   cd discord-mega-scraper
+   cd api-scrape-discord
    ```
 2. Install dependencies:
    ```bash
