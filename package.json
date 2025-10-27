@@ -1,0 +1,27 @@
+{
+  "name": "discord-mega-scraper",
+  "version": "1.0.0",
+  "description": "A highly modular Discord bot for scraping usernames using the official Discord API.",
+  "main": "src/bot/index.js",
+  "scripts": {
+    "start": "node src/bot/index.js",
+    "test": "jest",
+    "lint": "eslint src",
+    "format": "prettier --write src/**/*.{js,ts}",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "p-queue": "^9.0.0",
+    "sqlite3": "^5.1.7",
+    "express": "^4.21.1",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
